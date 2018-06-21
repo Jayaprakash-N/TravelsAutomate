@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="pageFactory.Signup"/>
+      <class name="propResources.ExcelReader"/>
+      <class name="test.TestLogin"/>
+      <class name="pageFactory.Login"/>
+      <class name="test.TestSignup"/>
+      <class name="propertyReader.PropertiesLoad"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="393707" started-at="2018-06-21T12:27:25Z" finished-at="2018-06-21T12:33:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="393707" started-at="2018-06-21T12:27:25Z" finished-at="2018-06-21T12:33:59Z">
+      <class name="test.TestLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestLogin@224edc67]" name="setup" is-config="true" duration-ms="21" started-at="2018-06-21T17:57:25Z" finished-at="2018-06-21T17:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="15667" started-at="2018-06-21T18:01:02Z" data-provider="LoginData" finished-at="2018-06-21T18:01:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testme1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="4286" started-at="2018-06-21T18:01:18Z" finished-at="2018-06-21T18:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="17287" started-at="2018-06-21T18:01:22Z" data-provider="LoginData" finished-at="2018-06-21T18:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testme2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3135" started-at="2018-06-21T18:01:39Z" finished-at="2018-06-21T18:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16310" started-at="2018-06-21T18:01:43Z" data-provider="LoginData" finished-at="2018-06-21T18:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testme3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2737" started-at="2018-06-21T18:01:59Z" finished-at="2018-06-21T18:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16442" started-at="2018-06-21T18:02:02Z" data-provider="LoginData" finished-at="2018-06-21T18:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testme4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass126]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3781" started-at="2018-06-21T18:02:18Z" finished-at="2018-06-21T18:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="19535" started-at="2018-06-21T18:02:22Z" data-provider="LoginData" finished-at="2018-06-21T18:02:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testme5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass127]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="6025" started-at="2018-06-21T18:02:41Z" finished-at="2018-06-21T18:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16277" started-at="2018-06-21T18:02:47Z" data-provider="LoginData" finished-at="2018-06-21T18:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testme6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass128]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2612" started-at="2018-06-21T18:03:04Z" finished-at="2018-06-21T18:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14852" started-at="2018-06-21T18:03:06Z" data-provider="LoginData" finished-at="2018-06-21T18:03:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testme7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass129]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2716" started-at="2018-06-21T18:03:21Z" finished-at="2018-06-21T18:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14930" started-at="2018-06-21T18:03:24Z" data-provider="LoginData" finished-at="2018-06-21T18:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testme8@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass130]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3045" started-at="2018-06-21T18:03:39Z" finished-at="2018-06-21T18:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14581" started-at="2018-06-21T18:03:42Z" data-provider="LoginData" finished-at="2018-06-21T18:03:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testme9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2640" started-at="2018-06-21T18:03:56Z" finished-at="2018-06-21T18:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestLogin -->
+      <class name="test.TestSignup">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestSignup@14acaea5]" name="setup" is-config="true" duration-ms="0" started-at="2018-06-21T17:57:25Z" finished-at="2018-06-21T17:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="22779" started-at="2018-06-21T17:57:29Z" data-provider="SignUpData" finished-at="2018-06-21T17:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestLast1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.678945625E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testme1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="8820" started-at="2018-06-21T17:57:52Z" finished-at="2018-06-21T17:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="19013" started-at="2018-06-21T17:58:01Z" data-provider="SignUpData" finished-at="2018-06-21T17:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestLast2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.678945626E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testme2@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass124]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2196" started-at="2018-06-21T17:58:20Z" finished-at="2018-06-21T17:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="16904" started-at="2018-06-21T17:58:22Z" data-provider="SignUpData" finished-at="2018-06-21T17:58:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestLast3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.678945627E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testme3@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass125]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2350" started-at="2018-06-21T17:58:39Z" finished-at="2018-06-21T17:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="14990" started-at="2018-06-21T17:58:41Z" data-provider="SignUpData" finished-at="2018-06-21T17:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestLast4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.678945628E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testme4@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass126]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass126]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3197" started-at="2018-06-21T17:58:56Z" finished-at="2018-06-21T17:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17564" started-at="2018-06-21T17:58:59Z" data-provider="SignUpData" finished-at="2018-06-21T17:59:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestLast5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.678945629E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testme5@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass127]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass127]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3770" started-at="2018-06-21T17:59:17Z" finished-at="2018-06-21T17:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="18707" started-at="2018-06-21T17:59:21Z" data-provider="SignUpData" finished-at="2018-06-21T17:59:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestLast6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.67894563E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testme6@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass128]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass128]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="20289" started-at="2018-06-21T17:59:40Z" finished-at="2018-06-21T18:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17633" started-at="2018-06-21T18:00:00Z" data-provider="SignUpData" finished-at="2018-06-21T18:00:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestLast7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.678945631E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testme7@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass129]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass129]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3836" started-at="2018-06-21T18:00:17Z" finished-at="2018-06-21T18:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17127" started-at="2018-06-21T18:00:21Z" data-provider="SignUpData" finished-at="2018-06-21T18:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestLast8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.678945632E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testme8@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass130]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass130]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3291" started-at="2018-06-21T18:00:38Z" finished-at="2018-06-21T18:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17414" started-at="2018-06-21T18:00:42Z" data-provider="SignUpData" finished-at="2018-06-21T18:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestLast9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.678945625E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testme9@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass131]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2984" started-at="2018-06-21T18:00:59Z" finished-at="2018-06-21T18:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestSignup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
