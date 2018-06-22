@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="415980" started-at="2018-06-21T15:26:34Z" finished-at="2018-06-21T15:33:30Z">
+  <suite name="Suite" duration-ms="393707" started-at="2018-06-21T12:27:25Z" finished-at="2018-06-21T12:33:59Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="415980" started-at="2018-06-21T15:26:34Z" finished-at="2018-06-21T15:33:30Z">
+    <test name="Test" duration-ms="393707" started-at="2018-06-21T12:27:25Z" finished-at="2018-06-21T12:33:59Z">
       <class name="test.TestLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestLogin@224edc67]" name="setup" is-config="true" duration-ms="84" started-at="2018-06-21T20:56:34Z" finished-at="2018-06-21T20:56:34Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestLogin@224edc67]" name="setup" is-config="true" duration-ms="21" started-at="2018-06-21T17:57:25Z" finished-at="2018-06-21T17:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14724" started-at="2018-06-21T21:00:14Z" data-provider="LoginData" finished-at="2018-06-21T21:00:29Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="15667" started-at="2018-06-21T18:01:02Z" data-provider="LoginData" finished-at="2018-06-21T18:01:18Z">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3186" started-at="2018-06-21T21:00:29Z" finished-at="2018-06-21T21:00:32Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="4286" started-at="2018-06-21T18:01:18Z" finished-at="2018-06-21T18:01:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="17110" started-at="2018-06-21T21:00:32Z" data-provider="LoginData" finished-at="2018-06-21T21:00:49Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="17287" started-at="2018-06-21T18:01:22Z" data-provider="LoginData" finished-at="2018-06-21T18:01:39Z">
           <params>
             <param index="0">
               <value>
@@ -47,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3398" started-at="2018-06-21T21:00:49Z" finished-at="2018-06-21T21:00:52Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3135" started-at="2018-06-21T18:01:39Z" finished-at="2018-06-21T18:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14934" started-at="2018-06-21T21:00:52Z" data-provider="LoginData" finished-at="2018-06-21T21:01:07Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16310" started-at="2018-06-21T18:01:43Z" data-provider="LoginData" finished-at="2018-06-21T18:01:59Z">
           <params>
             <param index="0">
               <value>
@@ -67,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3637" started-at="2018-06-21T21:01:07Z" finished-at="2018-06-21T21:01:11Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2737" started-at="2018-06-21T18:01:59Z" finished-at="2018-06-21T18:02:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="19481" started-at="2018-06-21T21:01:11Z" data-provider="LoginData" finished-at="2018-06-21T21:01:30Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16442" started-at="2018-06-21T18:02:02Z" data-provider="LoginData" finished-at="2018-06-21T18:02:18Z">
           <params>
             <param index="0">
               <value>
@@ -87,11 +87,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="11384" started-at="2018-06-21T21:01:30Z" finished-at="2018-06-21T21:01:42Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3781" started-at="2018-06-21T18:02:18Z" finished-at="2018-06-21T18:02:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="17315" started-at="2018-06-21T21:01:42Z" data-provider="LoginData" finished-at="2018-06-21T21:01:59Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="19535" started-at="2018-06-21T18:02:22Z" data-provider="LoginData" finished-at="2018-06-21T18:02:41Z">
           <params>
             <param index="0">
               <value>
@@ -107,11 +107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2847" started-at="2018-06-21T21:01:59Z" finished-at="2018-06-21T21:02:02Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="6025" started-at="2018-06-21T18:02:41Z" finished-at="2018-06-21T18:02:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="17207" started-at="2018-06-21T21:02:02Z" data-provider="LoginData" finished-at="2018-06-21T21:02:19Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16277" started-at="2018-06-21T18:02:47Z" data-provider="LoginData" finished-at="2018-06-21T18:03:04Z">
           <params>
             <param index="0">
               <value>
@@ -127,11 +127,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3114" started-at="2018-06-21T21:02:19Z" finished-at="2018-06-21T21:02:22Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2612" started-at="2018-06-21T18:03:04Z" finished-at="2018-06-21T18:03:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="15433" started-at="2018-06-21T21:02:22Z" data-provider="LoginData" finished-at="2018-06-21T21:02:38Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14852" started-at="2018-06-21T18:03:06Z" data-provider="LoginData" finished-at="2018-06-21T18:03:21Z">
           <params>
             <param index="0">
               <value>
@@ -147,11 +147,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2863" started-at="2018-06-21T21:02:38Z" finished-at="2018-06-21T21:02:40Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2716" started-at="2018-06-21T18:03:21Z" finished-at="2018-06-21T18:03:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="18489" started-at="2018-06-21T21:02:40Z" data-provider="LoginData" finished-at="2018-06-21T21:02:59Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14930" started-at="2018-06-21T18:03:24Z" data-provider="LoginData" finished-at="2018-06-21T18:03:39Z">
           <params>
             <param index="0">
               <value>
@@ -167,11 +167,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2938" started-at="2018-06-21T21:02:59Z" finished-at="2018-06-21T21:03:02Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3045" started-at="2018-06-21T18:03:39Z" finished-at="2018-06-21T18:03:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16640" started-at="2018-06-21T21:03:02Z" data-provider="LoginData" finished-at="2018-06-21T21:03:19Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14581" started-at="2018-06-21T18:03:42Z" data-provider="LoginData" finished-at="2018-06-21T18:03:56Z">
           <params>
             <param index="0">
               <value>
@@ -187,17 +187,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="11733" started-at="2018-06-21T21:03:19Z" finished-at="2018-06-21T21:03:30Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2640" started-at="2018-06-21T18:03:56Z" finished-at="2018-06-21T18:03:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.TestLogin -->
       <class name="test.TestSignup">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestSignup@14acaea5]" name="setup" is-config="true" duration-ms="2" started-at="2018-06-21T20:56:34Z" finished-at="2018-06-21T20:56:34Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestSignup@14acaea5]" name="setup" is-config="true" duration-ms="0" started-at="2018-06-21T17:57:25Z" finished-at="2018-06-21T17:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="34044" started-at="2018-06-21T20:56:40Z" data-provider="SignUpData" finished-at="2018-06-21T20:57:14Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="22779" started-at="2018-06-21T17:57:29Z" data-provider="SignUpData" finished-at="2018-06-21T17:57:52Z">
           <params>
             <param index="0">
               <value>
@@ -233,11 +233,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="12421" started-at="2018-06-21T20:57:14Z" finished-at="2018-06-21T20:57:27Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="8820" started-at="2018-06-21T17:57:52Z" finished-at="2018-06-21T17:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17135" started-at="2018-06-21T20:57:27Z" data-provider="SignUpData" finished-at="2018-06-21T20:57:44Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="19013" started-at="2018-06-21T17:58:01Z" data-provider="SignUpData" finished-at="2018-06-21T17:58:20Z">
           <params>
             <param index="0">
               <value>
@@ -273,11 +273,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2825" started-at="2018-06-21T20:57:44Z" finished-at="2018-06-21T20:57:46Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2196" started-at="2018-06-21T17:58:20Z" finished-at="2018-06-21T17:58:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="16508" started-at="2018-06-21T20:57:46Z" data-provider="SignUpData" finished-at="2018-06-21T20:58:03Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="16904" started-at="2018-06-21T17:58:22Z" data-provider="SignUpData" finished-at="2018-06-21T17:58:39Z">
           <params>
             <param index="0">
               <value>
@@ -313,11 +313,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3087" started-at="2018-06-21T20:58:03Z" finished-at="2018-06-21T20:58:06Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2350" started-at="2018-06-21T17:58:39Z" finished-at="2018-06-21T17:58:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="16213" started-at="2018-06-21T20:58:06Z" data-provider="SignUpData" finished-at="2018-06-21T20:58:22Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="14990" started-at="2018-06-21T17:58:41Z" data-provider="SignUpData" finished-at="2018-06-21T17:58:56Z">
           <params>
             <param index="0">
               <value>
@@ -353,11 +353,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2562" started-at="2018-06-21T20:58:22Z" finished-at="2018-06-21T20:58:25Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3197" started-at="2018-06-21T17:58:56Z" finished-at="2018-06-21T17:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="14877" started-at="2018-06-21T20:58:25Z" data-provider="SignUpData" finished-at="2018-06-21T20:58:40Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17564" started-at="2018-06-21T17:58:59Z" data-provider="SignUpData" finished-at="2018-06-21T17:59:17Z">
           <params>
             <param index="0">
               <value>
@@ -393,11 +393,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="9375" started-at="2018-06-21T20:58:40Z" finished-at="2018-06-21T20:58:49Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3770" started-at="2018-06-21T17:59:17Z" finished-at="2018-06-21T17:59:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="16991" started-at="2018-06-21T20:58:49Z" data-provider="SignUpData" finished-at="2018-06-21T20:59:06Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="18707" started-at="2018-06-21T17:59:21Z" data-provider="SignUpData" finished-at="2018-06-21T17:59:40Z">
           <params>
             <param index="0">
               <value>
@@ -433,11 +433,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2659" started-at="2018-06-21T20:59:06Z" finished-at="2018-06-21T20:59:09Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="20289" started-at="2018-06-21T17:59:40Z" finished-at="2018-06-21T18:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="15720" started-at="2018-06-21T20:59:09Z" data-provider="SignUpData" finished-at="2018-06-21T20:59:24Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17633" started-at="2018-06-21T18:00:00Z" data-provider="SignUpData" finished-at="2018-06-21T18:00:17Z">
           <params>
             <param index="0">
               <value>
@@ -473,11 +473,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3583" started-at="2018-06-21T20:59:24Z" finished-at="2018-06-21T20:59:28Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3836" started-at="2018-06-21T18:00:17Z" finished-at="2018-06-21T18:00:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="16145" started-at="2018-06-21T20:59:28Z" data-provider="SignUpData" finished-at="2018-06-21T20:59:44Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17127" started-at="2018-06-21T18:00:21Z" data-provider="SignUpData" finished-at="2018-06-21T18:00:38Z">
           <params>
             <param index="0">
               <value>
@@ -513,11 +513,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="10375" started-at="2018-06-21T20:59:44Z" finished-at="2018-06-21T20:59:55Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3291" started-at="2018-06-21T18:00:38Z" finished-at="2018-06-21T18:00:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="16060" started-at="2018-06-21T20:59:55Z" data-provider="SignUpData" finished-at="2018-06-21T21:00:11Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17414" started-at="2018-06-21T18:00:42Z" data-provider="SignUpData" finished-at="2018-06-21T18:00:59Z">
           <params>
             <param index="0">
               <value>
@@ -553,7 +553,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2756" started-at="2018-06-21T21:00:11Z" finished-at="2018-06-21T21:00:13Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2984" started-at="2018-06-21T18:00:59Z" finished-at="2018-06-21T18:01:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
