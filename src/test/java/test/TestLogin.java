@@ -57,7 +57,7 @@ Properties allObjects;
      	return object;	 
 	}
 	
-	@Test(priority=2, dataProvider="LoginData", enabled=false)
+	@Test(priority=2, dataProvider="LoginData")
 	public void Login(String Username,String Password)
 	{
 		driver = new FirefoxDriver();

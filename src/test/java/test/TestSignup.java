@@ -60,7 +60,7 @@ public class TestSignup
      	return object;	 
 	}
 	
-	@Test(priority=1,dataProvider="SignUpData", enabled=false)
+	@Test(priority=1,dataProvider="SignUpData")
 	public void signUp(String Fname,String Lname,String mobno,String email,String pwd,String rePwd)
 	{
 		driver = new FirefoxDriver();
