@@ -57,16 +57,7 @@ Properties allObjects;
      	return object;	 
 	}
 	
-	/*@Test   
-	public void Login()
-	{
-		Uname=allObjects.getProperty("username");
-		Paswd=allObjects.getProperty("password");
-		Login lgn =new Login(driver);
-		lgn.setLogin(Uname, Paswd);
-	}*/
-	
-	@Test(priority=2, dataProvider="LoginData")
+	@Test(priority=2, dataProvider="LoginData", enabled=false)
 	public void Login(String Username,String Password)
 	{
 		driver = new FirefoxDriver();
@@ -78,6 +69,22 @@ Properties allObjects;
 		Login lgn =new Login(driver);
 		lgn.setLogin(this.Uname=Username, Password);
 	}
+	
+	@Test   
+	public void Login()
+	{
+		Uname=allObjects.getProperty("username");
+		Paswd=allObjects.getProperty("password");
+		driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.get(allObjects.getProperty("url")+"/login");	
+		//driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("return document.readyState").toString().equals("complete");
+		Login lgn =new Login(driver);
+		lgn.setLogin(Uname, Paswd);
+	}
+	
 	
 	@AfterMethod
 	public void closeBrowser()

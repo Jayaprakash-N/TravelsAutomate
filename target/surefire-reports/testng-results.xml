@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="18" passed="18">
+<testng-results skipped="0" failed="1" total="18" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="393707" started-at="2018-06-21T12:27:25Z" finished-at="2018-06-21T12:33:59Z">
+  <suite name="Suite" duration-ms="426378" started-at="2018-09-27T16:22:45Z" finished-at="2018-09-27T16:29:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="393707" started-at="2018-06-21T12:27:25Z" finished-at="2018-06-21T12:33:59Z">
+    <test name="Test" duration-ms="426378" started-at="2018-09-27T16:22:45Z" finished-at="2018-09-27T16:29:51Z">
       <class name="test.TestLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestLogin@224edc67]" name="setup" is-config="true" duration-ms="21" started-at="2018-06-21T17:57:25Z" finished-at="2018-06-21T17:57:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestLogin@224edc67]" name="setup" is-config="true" duration-ms="148" started-at="2018-09-27T21:52:44Z" finished-at="2018-09-27T21:52:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="15667" started-at="2018-06-21T18:01:02Z" data-provider="LoginData" finished-at="2018-06-21T18:01:18Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16326" started-at="2018-09-27T21:55:54Z" data-provider="LoginData" finished-at="2018-09-27T21:56:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testme1@gmail.com]]>
+                <![CDATA[TATestme1@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="4286" started-at="2018-06-21T18:01:18Z" finished-at="2018-06-21T18:01:22Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="8455" started-at="2018-09-27T21:56:11Z" finished-at="2018-09-27T21:56:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="17287" started-at="2018-06-21T18:01:22Z" data-provider="LoginData" finished-at="2018-06-21T18:01:39Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="17779" started-at="2018-09-27T21:56:19Z" data-provider="LoginData" finished-at="2018-09-27T21:56:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testme2@gmail.com]]>
+                <![CDATA[TATestme2@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3135" started-at="2018-06-21T18:01:39Z" finished-at="2018-06-21T18:01:43Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="15148" started-at="2018-09-27T21:56:37Z" finished-at="2018-09-27T21:56:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16310" started-at="2018-06-21T18:01:43Z" data-provider="LoginData" finished-at="2018-06-21T18:01:59Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="25912" started-at="2018-09-27T21:56:52Z" data-provider="LoginData" finished-at="2018-09-27T21:57:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testme3@gmail.com]]>
+                <![CDATA[TATestme3@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -67,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2737" started-at="2018-06-21T18:01:59Z" finished-at="2018-06-21T18:02:02Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="7186" started-at="2018-09-27T21:57:18Z" finished-at="2018-09-27T21:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16442" started-at="2018-06-21T18:02:02Z" data-provider="LoginData" finished-at="2018-06-21T18:02:18Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="20167" started-at="2018-09-27T21:57:25Z" data-provider="LoginData" finished-at="2018-09-27T21:57:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testme4@gmail.com]]>
+                <![CDATA[TATestme4@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -87,15 +87,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3781" started-at="2018-06-21T18:02:18Z" finished-at="2018-06-21T18:02:22Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="6913" started-at="2018-09-27T21:57:45Z" finished-at="2018-09-27T21:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="19535" started-at="2018-06-21T18:02:22Z" data-provider="LoginData" finished-at="2018-06-21T18:02:41Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="18741" started-at="2018-09-27T21:57:52Z" data-provider="LoginData" finished-at="2018-09-27T21:58:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testme5@gmail.com]]>
+                <![CDATA[TATestme5@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -107,15 +107,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="6025" started-at="2018-06-21T18:02:41Z" finished-at="2018-06-21T18:02:47Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="5912" started-at="2018-09-27T21:58:11Z" finished-at="2018-09-27T21:58:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="16277" started-at="2018-06-21T18:02:47Z" data-provider="LoginData" finished-at="2018-06-21T18:03:04Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14605" started-at="2018-09-27T21:58:17Z" data-provider="LoginData" finished-at="2018-09-27T21:58:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testme6@gmail.com]]>
+                <![CDATA[TATestme6@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -127,15 +127,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2612" started-at="2018-06-21T18:03:04Z" finished-at="2018-06-21T18:03:06Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2759" started-at="2018-09-27T21:58:31Z" finished-at="2018-09-27T21:58:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14852" started-at="2018-06-21T18:03:06Z" data-provider="LoginData" finished-at="2018-06-21T18:03:21Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14062" started-at="2018-09-27T21:58:34Z" data-provider="LoginData" finished-at="2018-09-27T21:58:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testme7@gmail.com]]>
+                <![CDATA[TATestme7@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -147,15 +147,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2716" started-at="2018-06-21T18:03:21Z" finished-at="2018-06-21T18:03:24Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2971" started-at="2018-09-27T21:58:48Z" finished-at="2018-09-27T21:58:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14930" started-at="2018-06-21T18:03:24Z" data-provider="LoginData" finished-at="2018-06-21T18:03:39Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="18364" started-at="2018-09-27T21:58:51Z" data-provider="LoginData" finished-at="2018-09-27T21:59:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testme8@gmail.com]]>
+                <![CDATA[TATestme8@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -167,15 +167,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3045" started-at="2018-06-21T18:03:39Z" finished-at="2018-06-21T18:03:42Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="3434" started-at="2018-09-27T21:59:10Z" finished-at="2018-09-27T21:59:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="14581" started-at="2018-06-21T18:03:42Z" data-provider="LoginData" finished-at="2018-06-21T18:03:56Z">
+        <test-method status="FAIL" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:test.TestLogin@224edc67]" name="Login" duration-ms="27918" started-at="2018-09-27T21:59:13Z" data-provider="LoginData" finished-at="2018-09-27T21:59:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testme9@gmail.com]]>
+                <![CDATA[TATestme9@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -184,20 +184,79 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Reached error page: about:neterror?e=netTimeout&u=https%3A//www.phptravels.net/login&c=UTF-8&f=regular&d=The%20server%20at%20www.phptravels.net%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'JAI-PC', ip: '192.168.0.105', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3308, moz:profile: C:\Users\JayaprakashNagaraj..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3e18f649-cead-4c60-ae15-57f2d474d43e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=netTimeout&u=https%3A//www.phptravels.net/login&c=UTF-8&f=regular&d=The%20server%20at%20www.phptravels.net%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'JAI-PC', ip: '192.168.0.105', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3308, moz:profile: C:\Users\JayaprakashNagaraj..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3e18f649-cead-4c60-ae15-57f2d474d43e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at test.TestLogin.Login(TestLogin.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="2640" started-at="2018-06-21T18:03:56Z" finished-at="2018-06-21T18:03:59Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestLogin@224edc67]" name="closeBrowser" is-config="true" duration-ms="9996" started-at="2018-09-27T21:59:41Z" finished-at="2018-09-27T21:59:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.TestLogin -->
       <class name="test.TestSignup">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestSignup@14acaea5]" name="setup" is-config="true" duration-ms="0" started-at="2018-06-21T17:57:25Z" finished-at="2018-06-21T17:57:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestSignup@14acaea5]" name="setup" is-config="true" duration-ms="1" started-at="2018-09-27T21:52:45Z" finished-at="2018-09-27T21:52:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="22779" started-at="2018-06-21T17:57:29Z" data-provider="SignUpData" finished-at="2018-06-21T17:57:52Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="57711" started-at="2018-09-27T21:52:47Z" data-provider="SignUpData" finished-at="2018-09-27T21:53:45Z">
           <params>
             <param index="0">
               <value>
@@ -216,7 +275,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[testme1@gmail.com]]>
+                <![CDATA[TATestme1@gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -233,11 +292,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="8820" started-at="2018-06-21T17:57:52Z" finished-at="2018-06-21T17:58:01Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="4826" started-at="2018-09-27T21:53:45Z" finished-at="2018-09-27T21:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="19013" started-at="2018-06-21T17:58:01Z" data-provider="SignUpData" finished-at="2018-06-21T17:58:20Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="14433" started-at="2018-09-27T21:53:50Z" data-provider="SignUpData" finished-at="2018-09-27T21:54:04Z">
           <params>
             <param index="0">
               <value>
@@ -256,7 +315,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[testme2@gmail.com]]>
+                <![CDATA[TATestme2@gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -273,11 +332,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2196" started-at="2018-06-21T17:58:20Z" finished-at="2018-06-21T17:58:22Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2418" started-at="2018-09-27T21:54:04Z" finished-at="2018-09-27T21:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="16904" started-at="2018-06-21T17:58:22Z" data-provider="SignUpData" finished-at="2018-06-21T17:58:39Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="13179" started-at="2018-09-27T21:54:07Z" data-provider="SignUpData" finished-at="2018-09-27T21:54:20Z">
           <params>
             <param index="0">
               <value>
@@ -296,7 +355,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[testme3@gmail.com]]>
+                <![CDATA[TATestme3@gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -313,11 +372,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2350" started-at="2018-06-21T17:58:39Z" finished-at="2018-06-21T17:58:41Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2407" started-at="2018-09-27T21:54:20Z" finished-at="2018-09-27T21:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="14990" started-at="2018-06-21T17:58:41Z" data-provider="SignUpData" finished-at="2018-06-21T17:58:56Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="12533" started-at="2018-09-27T21:54:22Z" data-provider="SignUpData" finished-at="2018-09-27T21:54:35Z">
           <params>
             <param index="0">
               <value>
@@ -336,7 +395,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[testme4@gmail.com]]>
+                <![CDATA[TATestme4@gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -353,11 +412,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3197" started-at="2018-06-21T17:58:56Z" finished-at="2018-06-21T17:58:59Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2345" started-at="2018-09-27T21:54:35Z" finished-at="2018-09-27T21:54:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17564" started-at="2018-06-21T17:58:59Z" data-provider="SignUpData" finished-at="2018-06-21T17:59:17Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="12221" started-at="2018-09-27T21:54:37Z" data-provider="SignUpData" finished-at="2018-09-27T21:54:50Z">
           <params>
             <param index="0">
               <value>
@@ -376,7 +435,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[testme5@gmail.com]]>
+                <![CDATA[TATestme5@gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -393,11 +452,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3770" started-at="2018-06-21T17:59:17Z" finished-at="2018-06-21T17:59:21Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3507" started-at="2018-09-27T21:54:50Z" finished-at="2018-09-27T21:54:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="18707" started-at="2018-06-21T17:59:21Z" data-provider="SignUpData" finished-at="2018-06-21T17:59:40Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="11850" started-at="2018-09-27T21:54:53Z" data-provider="SignUpData" finished-at="2018-09-27T21:55:05Z">
           <params>
             <param index="0">
               <value>
@@ -416,7 +475,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[testme6@gmail.com]]>
+                <![CDATA[TATestme6@gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -433,11 +492,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="20289" started-at="2018-06-21T17:59:40Z" finished-at="2018-06-21T18:00:00Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2990" started-at="2018-09-27T21:55:05Z" finished-at="2018-09-27T21:55:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17633" started-at="2018-06-21T18:00:00Z" data-provider="SignUpData" finished-at="2018-06-21T18:00:17Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="13185" started-at="2018-09-27T21:55:08Z" data-provider="SignUpData" finished-at="2018-09-27T21:55:21Z">
           <params>
             <param index="0">
               <value>
@@ -456,7 +515,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[testme7@gmail.com]]>
+                <![CDATA[TATestme7@gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -473,11 +532,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3836" started-at="2018-06-21T18:00:17Z" finished-at="2018-06-21T18:00:21Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2436" started-at="2018-09-27T21:55:21Z" finished-at="2018-09-27T21:55:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17127" started-at="2018-06-21T18:00:21Z" data-provider="SignUpData" finished-at="2018-06-21T18:00:38Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="13000" started-at="2018-09-27T21:55:24Z" data-provider="SignUpData" finished-at="2018-09-27T21:55:37Z">
           <params>
             <param index="0">
               <value>
@@ -496,7 +555,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[testme8@gmail.com]]>
+                <![CDATA[TATestme8@gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -513,11 +572,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="3291" started-at="2018-06-21T18:00:38Z" finished-at="2018-06-21T18:00:42Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2554" started-at="2018-09-27T21:55:37Z" finished-at="2018-09-27T21:55:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="17414" started-at="2018-06-21T18:00:42Z" data-provider="SignUpData" finished-at="2018-06-21T18:00:59Z">
+        <test-method status="PASS" signature="signUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.TestSignup@14acaea5]" name="signUp" duration-ms="12655" started-at="2018-09-27T21:55:39Z" data-provider="SignUpData" finished-at="2018-09-27T21:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -531,12 +590,12 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[1.678945625E9]]>
+                <![CDATA[1.678945633E9]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[testme9@gmail.com]]>
+                <![CDATA[TATestme9@gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -553,7 +612,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2984" started-at="2018-06-21T18:00:59Z" finished-at="2018-06-21T18:01:02Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSignup@14acaea5]" name="closeBrowser" is-config="true" duration-ms="2380" started-at="2018-09-27T21:55:52Z" finished-at="2018-09-27T21:55:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

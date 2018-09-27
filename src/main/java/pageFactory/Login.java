@@ -16,8 +16,9 @@ public class Login
 	@FindBy(name="password")
 	WebElement Password;
 	
-	@FindBy(xpath = "//*[@class = 'wow fadeIn animated']/button")
-	WebElement Login;
+	@FindBy(xpath = "//*[@id='loginfrm']/button[contains(text(),'Login')]")
+	WebElement Login; 
+	/*"//*[@class = 'wow fadeIn animated']/button")*/
 	
 	public int TimeoutValue = 60;
 	
