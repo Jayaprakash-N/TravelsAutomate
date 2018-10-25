@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-   
-  <listeners>
-        <listener class-name="test.RetryListenerClass"/>
-</listeners>
-
-  <test name="SignUpTest" preserve-order="true">
+  <test thread-count="5" name="Test" preserve-order="true">
     <classes>
       <class name="test.TestSignup"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  <test name="LoginTest" preserve-order="true">
-    <classes>
       <class name="test.TestLogin"/>
     </classes>
-    
   </test> <!-- Test -->
-  
 </suite> <!-- Suite -->
