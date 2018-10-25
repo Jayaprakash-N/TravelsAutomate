@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -19,6 +20,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import junit.framework.Assert;
 import pageFactory.*;
 import propResources.ExcelReader;
 import propertyReader.*;
@@ -71,12 +73,19 @@ public class TestSignup
 		js.executeScript("return document.readyState").toString().equals("complete");
 		Signup sgn=new Signup(driver);
 		sgn.doSignup(Fname,Lname,mobno,this.email=email,pwd,rePwd);
+		js.executeScript("return document.readyState").toString().equals("complete");
+		if(!(driver.findElement(By.id("title")).equals("Register")))
+		{
+			Assert.assertTrue("Registration Verification",driver.findElement(By.xpath("//*[@id='body-section']/h3[@class=RTL]")).getText().contains(Fname));
+			System.out.println("User"+this.email+ " Signed In Successfully");
+		}
+		System.out.println("User"+this.email+ " Signed In Successfully");
 	}
 	
 	@AfterMethod
 	public void closeBrowser()
 	{
-		System.out.println("User"+this.email+ " Created Successfully");
+		System.out.println("Browser Close Invoked");
 		driver.close();
 	}
 

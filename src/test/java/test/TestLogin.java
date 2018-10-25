@@ -6,8 +6,10 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -17,6 +19,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import junit.framework.Assert;
 import propResources.ExcelReader;
 import propertyReader.PropertiesLoad;
 import pageFactory.*;
@@ -57,7 +60,7 @@ Properties allObjects;
      	return object;	 
 	}
 	
-	@Test(priority=2, dataProvider="LoginData")
+	@Test(priority=1, dataProvider="LoginData")
 	public void Login(String Username,String Password)
 	{
 		driver = new FirefoxDriver();
@@ -68,9 +71,15 @@ Properties allObjects;
 		js.executeScript("return document.readyState").toString().equals("complete");
 		Login lgn =new Login(driver);
 		lgn.setLogin(this.Uname=Username, Password);
+		js.executeScript("return document.readyState").toString().equals("complete");
+		Assert.assertTrue("Login Verification", driver.findElement(By.id("title")).equals("My Account"));
+		driver.findElement(By.xpath("//*[@id='body-section']/a[contains(text(),'My Profile')]")).click();
+		js.executeScript("return document.readyState").toString().equals("complete");
+		Assert.assertEquals(Uname, driver.findElement(By.xpath("//*[@id='profilefrm']/input[@name='Email']")).getAttribute("value"));
+		System.out.println("User"+this.Uname+ " logged in Successfully");
 	}
 	
-	@Test   
+	@Test(priority=2)   
 	public void Login()
 	{
 		Uname=allObjects.getProperty("username");
@@ -83,13 +92,19 @@ Properties allObjects;
 		js.executeScript("return document.readyState").toString().equals("complete");
 		Login lgn =new Login(driver);
 		lgn.setLogin(Uname, Paswd);
+		js.executeScript("return document.readyState").toString().equals("complete");
+		Assert.assertTrue("Login Verification", driver.findElement(By.id("title")).equals("My Account"));
+		driver.findElement(By.xpath("//*[@id='body-section']/a[contains(text(),'My Profile')]")).click();
+		js.executeScript("return document.readyState").toString().equals("complete");
+		Assert.assertEquals(Uname, driver.findElement(By.xpath("//*[@id='profilefrm']/input[@name='Email']")).getAttribute("value"));
+		System.out.println("User"+this.Uname+ " logged in Successfully");
 	}
 	
 	
 	@AfterMethod
 	public void closeBrowser()
 	{
-		System.out.println("User"+this.Uname+ " logged in Successfully");
+		System.out.println("Browser Close Invoked");
 		driver.close();
 	}
 	
