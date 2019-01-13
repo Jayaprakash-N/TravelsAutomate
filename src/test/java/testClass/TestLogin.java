@@ -56,7 +56,6 @@ JavascriptExecutor js = (JavascriptExecutor)driver;
      	return object;	 
 	}
 	
-	@Test(dataProvider="LoginData")
 	public void Login(String Username,String Password)
 	{
 		driver = new FirefoxDriver();
