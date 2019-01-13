@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-   
-  <listeners>
-        <listener class-name="test.RetryListenerClass"/>
-</listeners>
-
-  <test name="SignUpTest" preserve-order="true">
+  <test name="Test" preserve-order="true">
     <classes>
-      <class name="test.TestSignup"/>
+      <class name="testClass.TestSignup">
+      	<methods>
+      		<include name="signUp"></include>
+      	</methods>
+      </class>
+      <class name="testClass.TestLogin">
+        <methods>
+        	<include name="Login"></include>
+        	<include name="LoginWithWrongCreds"></include>
+        </methods>
+      </class>
     </classes>
   </test> <!-- Test -->
-  
-  <test name="LoginTest" preserve-order="true">
-    <classes>
-      <class name="test.TestLogin"/>
-    </classes>
-    
-  </test> <!-- Test -->
-  
 </suite> <!-- Suite -->

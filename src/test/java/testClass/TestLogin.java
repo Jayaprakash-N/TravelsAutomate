@@ -1,26 +1,25 @@
-package test;
+package testClass;
 
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import propResources.ExcelReader;
 import propertyReader.PropertiesLoad;
 import pageFactory.*;
 
+@Listeners({ListenerClass.RetryListenerClass.class, ListenerClass.TestListener.class})
 public class TestLogin 
 {
 WebDriver driver;
@@ -28,8 +27,9 @@ String Uname;
 String Paswd;
 PropertiesLoad object;
 Properties allObjects;
+JavascriptExecutor js = (JavascriptExecutor)driver;
 
-	@BeforeSuite
+	@BeforeClass
 	public void setup() throws IOException
 	{
 		object = new PropertiesLoad();
@@ -37,8 +37,7 @@ Properties allObjects;
 		System.setProperty("webdriver.gecko.driver",allObjects.getProperty("geckodriver"));
 	}
 	
-
-    @DataProvider(name="LoginData")
+    @DataProvider(name="LoginData",parallel = true)
 	public Object[][] getDataFromDataprovider() throws IOException
     {
     	Object[][] object = null; 
@@ -57,46 +56,43 @@ Properties allObjects;
      	return object;	 
 	}
 	
-	@Test(priority=2, dataProvider="LoginData")
+	@Test(dataProvider="LoginData")
 	public void Login(String Username,String Password)
 	{
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(allObjects.getProperty("url")+"/login");	
-		//driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
-		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("return document.readyState").toString().equals("complete");
 		Login lgn =new Login(driver);
 		lgn.setLogin(this.Uname=Username, Password);
+		js.executeScript("return document.readyState").toString().equals("complete");
+		Assert.assertTrue(driver.findElement(By.id("title")).equals("My Account"));
+		System.out.println("User"+this.Uname+ " logged in Successfully");
 	}
 	
 	@Test   
-	public void Login()
+	public void LoginWithWrongCreds()
 	{
 		Uname=allObjects.getProperty("username");
 		Paswd=allObjects.getProperty("password");
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(allObjects.getProperty("url")+"/login");	
-		//driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("return document.readyState").toString().equals("complete");
 		Login lgn =new Login(driver);
 		lgn.setLogin(Uname, Paswd);
+		js.executeScript("return document.readyState").toString().equals("complete");
+		Assert.assertFalse(driver.findElement(By.id("title")).equals("My Account"));
+		System.out.println("User"+this.Uname+ " not logged in Successfully");
 	}
 	
 	
 	@AfterMethod
 	public void closeBrowser()
 	{
-		System.out.println("User"+this.Uname+ " logged in Successfully");
+		System.out.println("Browser Close Invoked");
 		driver.close();
 	}
 	
-	/*@AfterSuite
-	public void closeConn()
-	{
-		driver.quit();
-	}*/
-
 }

@@ -1,35 +1,32 @@
-package test;
+package testClass;
 
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
-//import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import pageFactory.*;
 import propResources.ExcelReader;
 import propertyReader.*;
 
+@Listeners({ListenerClass.RetryListenerClass.class, ListenerClass.TestListener.class})
 public class TestSignup 
 {
 	WebDriver driver;
 	PropertiesLoad object;
 	private Properties allObjects;
 	private String email;
-	//WebDriverWait wait;
+	JavascriptExecutor js = (JavascriptExecutor)driver;
 	
 	@BeforeClass
 	public void setup() throws IOException
@@ -37,11 +34,9 @@ public class TestSignup
 		object = new PropertiesLoad();
         allObjects = object.getObjectRepository();
 		System.setProperty("webdriver.gecko.driver",allObjects.getProperty("geckodriver"));
-		//driver = new FirefoxDriver();
-		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
 	}
 	
-	@DataProvider(name="SignUpData")
+	@DataProvider(name="SignUpData",parallel = true)
 	public Object[][] getDataFromDataprovider() throws IOException
     {
     	Object[][] object = null; 
@@ -60,23 +55,28 @@ public class TestSignup
      	return object;	 
 	}
 	
-	@Test(priority=1,dataProvider="SignUpData")
+	@Test(dataProvider="SignUpData")
 	public void signUp(String Fname,String Lname,String mobno,String email,String pwd,String rePwd)
 	{
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get(allObjects.getProperty("url")+"/register");	
-		//driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-		JavascriptExecutor js = (JavascriptExecutor)driver;
+		driver.get(allObjects.getProperty("url")+"/register");		
 		js.executeScript("return document.readyState").toString().equals("complete");
 		Signup sgn=new Signup(driver);
 		sgn.doSignup(Fname,Lname,mobno,this.email=email,pwd,rePwd);
+		js.executeScript("return document.readyState").toString().equals("complete");
+		if(!(driver.findElement(By.id("title")).equals("Register")))
+		{
+			Assert.assertTrue(driver.getTitle().equals("My Account"));
+			System.out.println("User"+this.email+ " Signed In Successfully");
+		}
+		System.out.println("User"+this.email+ " Signed In Already");
 	}
 	
 	@AfterMethod
 	public void closeBrowser()
 	{
-		System.out.println("User"+this.email+ " Created Successfully");
+		System.out.println("Browser Close Invoked");
 		driver.close();
 	}
 
