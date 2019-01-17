@@ -26,18 +26,19 @@ public class TestSignup
 	PropertiesLoad object;
 	private Properties allObjects;
 	private String email;
-	JavascriptExecutor js = (JavascriptExecutor)driver;
+	JavascriptExecutor js;
 	
 	@BeforeClass
 	public void setup() throws IOException
 	{
 		object = new PropertiesLoad();
         allObjects = object.getObjectRepository();
-		System.setProperty("webdriver.gecko.driver",allObjects.getProperty("geckodriver"));
+		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\Drivers\\GeckoDriver\\geckodriver-v0.20.0-win64\\geckodriver.exe");
+		js = (JavascriptExecutor)driver;
 	}
 	
-	@DataProvider(name="SignUpData",parallel = true)
-	public Object[][] getDataFromDataprovider() throws IOException
+	@DataProvider(name="SignUpData")//,parallel = true)
+	public Object[][] getSignUpData() throws IOException
     {
     	Object[][] object = null; 
     	ExcelReader file = new ExcelReader();

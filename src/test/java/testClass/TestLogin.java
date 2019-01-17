@@ -27,18 +27,19 @@ String Uname;
 String Paswd;
 PropertiesLoad object;
 Properties allObjects;
-JavascriptExecutor js = (JavascriptExecutor)driver;
+JavascriptExecutor js;
 
 	@BeforeClass
 	public void setup() throws IOException
 	{
 		object = new PropertiesLoad();
 		allObjects = object.getObjectRepository();
-		System.setProperty("webdriver.gecko.driver",allObjects.getProperty("geckodriver"));
+		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\Drivers\\GeckoDriver\\geckodriver-v0.20.0-win64\\geckodriver.exe");
+		js = (JavascriptExecutor)driver;
 	}
 	
-    @DataProvider(name="LoginData",parallel = true)
-	public Object[][] getDataFromDataprovider() throws IOException
+    @DataProvider(name="LoginData")//,parallel = true)
+	public Object[][] getLoginData() throws IOException
     {
     	Object[][] object = null; 
     	ExcelReader file = new ExcelReader();
